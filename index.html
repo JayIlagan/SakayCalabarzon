@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="ITC Group 4">
+    <link href="https://fonts.cdnfonts.com/css/bernoru" rel="stylesheet">
+    <link href="https://fontlibrary.org//face/glacial-indifference" rel="stylesheet">
+    <title>Sakay Calabarzon</title>
+</head>
+
+<style>
+
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    }
+    body {
+        background-color: #fffff5;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    header {
+        background-color: #fffff5;
+        position: sticky;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: -1rem;
+        padding-bottom: -1rem;
+        border-bottom: 3px solid #1b2f8f; 
+    }
+
+    .logo { 
+        height: 85px;
+        width: auto;
+        
+    }
+
+    .logo2x2 {
+        height: 200px;
+        width: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 125px;
+    }
+
+    .Content{
+        font-family: 'GlacialIndifferenceBold', sans-serif;
+        color: #3a3a3a;
+    }
+
+    .Title {
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .Subtitle {
+        font-family: 'GlacialIndifferenceRegular', sans-serif;
+        font-size: 22px;
+        text-align: center;
+        margin-top: 10px;
+        letter-spacing: 0.5px;
+    }
+
+    .footer-text{
+        background-color: #1b2f8f;
+        color: #fffff5;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .nav-lists {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        gap: 24px;
+        
+    }
+
+    .nav-li { 
+        font-family: 'GlacialIndifferenceRegular', sans-serif;
+        font-size: 16px;
+        color: #3a3a3a;
+    }
+
+    .nav-a {
+        font-family: 'GlacialIndifferenceBold', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        color:#fffff5;
+        background-color: #1b2f8f;
+        gap: 24px;
+        padding: 12.5px;
+        border-radius: 999px;
+    }
+
+    .get-started {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .GetStarted {
+        font-family: 'GlacialIndifferenceBold', sans-serif;
+        font-size: 25px;
+        font-weight: 700;
+        color:#1b2f8f;
+        background-color: #fffff5;
+        gap: 24px;
+        padding: 12.5px;
+        border-radius: 999px;
+        border: 2px solid #1b2f8f;
+        text-decoration: none;
+    }
+
+</style>
+
+<body>
+    <header>
+        <img class="logo" src="images/Sakay_Calabarzon-Logo.png" alt="Sakay Calabarzon logo">
+        <hr>
+        <nav class="nav-links">
+            <ul class="nav-lists">
+                <li><a class="nav-li"href="index.html" style="text-decoration: none">Home</a></li>
+                <li><a class="nav-li"href="FAQ.html" style="text-decoration: none">FAQ</a></li>
+                <li><a class="nav-li"href="About.html" style="text-decoration: none">About</a></li>
+                <li><a class="nav-a"href="RouteMap.html" style="text-decoration: none">View Route Map</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="MainContent">
+        <img class="logo2x2" src="images/Sakay_Calabarzon_Logo-2x2.png" alt="Sakay Calabarzon logo 2x2">
+        <article class="content">
+            <h1 class="Title">Your CALABARZON Commuting Guide.</h1>
+            <p class ="Subtitle"> Travel within Region 4A with confidence. Get <br> accurate routes, fares, and terminal information.</p>
+        </article>
+
+        <div class="get-started">
+            <a class="GetStarted" href="RouteMap.html" >Get Started</a>
+        </div>
+    </div>
+
+    <footer>
+        <p class="footer-text">&copy; 2026 Sakay Calabarzon. All rights reserved.</p>
+    </footer>
+
+</body>
