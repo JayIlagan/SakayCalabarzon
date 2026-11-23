@@ -1,0 +1,116 @@
+<style>
+
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    }
+    body {
+        background-color: #fffff5;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background-color: #fffff5;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.25rem 2rem;
+      border-bottom: 3px solid #1b2f8f;
+}
+
+    .logo { 
+        height: 85px;
+        width: auto;
+        
+    }
+
+    .logo2x2 {
+        height: 200px;
+        width: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 125px;
+    }
+
+    .content{
+        font-family: 'GlacialIndifferenceBold', sans-serif;
+        color: #3a3a3a;
+    }
+
+    .Title {
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .Subtitle {
+        font-family: 'GlacialIndifferenceRegular', sans-serif;
+        font-size: 22px;
+        text-align: center;
+        margin-top: 10px;
+        letter-spacing: 0.5px;
+    }
+
+    .footer-text{
+        background-color: #1b2f8f;
+        color: #fffff5;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .nav-lists {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        gap: 24px;
+        
+    }
+
+    .nav-li { 
+        font-family: 'GlacialIndifferenceRegular', sans-serif;
+        font-size: 16px;
+        color: #3a3a3a;
+    }
+
+    .nav-a {
+        font-family: 'GlacialIndifferenceBold', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        color:#fffff5;
+        background-color: #1b2f8f;
+        gap: 24px;
+        padding: 12.5px;
+        border-radius: 999px;
+    }
+
+    .get-started {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .GetStarted {
+        font-family: 'GlacialIndifferenceBold', sans-serif;
+        font-size: 25px;
+        font-weight: 700;
+        color:#1b2f8f;
+        background-color: #fffff5;
+        gap: 24px;
+        padding: 12.5px;
+        border-radius: 999px;
+        border: 2px solid #1b2f8f;
+        text-decoration: none;
+    }
+
+</style>
