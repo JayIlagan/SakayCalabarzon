@@ -102,7 +102,8 @@
         bottom: 0;
         right: 0;
         left: 0;
-      z-index: 90;
+        z-index: 90;
+        margin: 0;
 /* Spans the footer bar cleanly from the left edge to the right edge of the screen */
         width: 100%;
     }
