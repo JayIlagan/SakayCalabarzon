@@ -68,21 +68,24 @@
         bottom: 0;
         width: 100%;
     }
-
+/*Arranges the lists to be centered inside the header*/
     .nav-lists {
         display: flex;
+/*Aligns the lists to be centered horizontal*/
         align-items: center;
+/*list-style-type: none; Removes the • infront of the text*/
         list-style-type: none;
+/*gap: puts a gap between each lists by 24px*/
         gap: 24px;
         
     }
-
+/*nav-li, hyperlinks*/
     .nav-li { 
         font-family: 'GlacialIndifferenceRegular', sans-serif;
         font-size: 16px;
         color: #3a3a3a;
     }
-
+/*nav-a, hyperlink that looks like a button*/
     .nav-a {
         font-family: 'GlacialIndifferenceBold', sans-serif;
         font-size: 16px;
