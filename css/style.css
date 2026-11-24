@@ -31,6 +31,7 @@
       padding: 0.25rem 1.5rem;
 /*Adds a line across the whole header*/
       border-bottom: 3px solid #1b2f8f;
+      flex-wrap: wrap;
     }
 
 /*Text logo on the header*/
