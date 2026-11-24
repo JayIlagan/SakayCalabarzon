@@ -164,27 +164,33 @@
 
 /*Design for the FAQ*/
     details {
-        border-radius: 50px;
+        border-radius: 3.5px;
         border:2px solid #1b2f8f;
         margin-bottom: 15px;
         width: 70%;
         margin-left: 15%;
         margin-right: 15%
     }
-
+/*Text inside the Detail*/
     summary{
         font-family: 'GlacialIndifferenceBold', sans-serif;
         font-size: 25px;
 /*Adjusts the thickness of font*/
         font-weight: 700;
         color:#1b2f8f;
-        background-color: #fffff5;
+        background-color: #ffffff;
+        padding: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
+/*Text inside of the question*/
     p{
         font-family: 'GlacialIndifferenceRegular', sans-serif;
         color: #3a3a3a;
         margin-bottom: 25px;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     article{
