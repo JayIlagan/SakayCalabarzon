@@ -57,22 +57,14 @@
         color: #3a3a3a;
     }
       
-/*Main Title for the main page*/
+/*Main Title */
     .Title {
-        font-size: 32px;
-        font-weight: 700;
-        text-align: center;
-        margin-top: 15px;
-    }
-/*Main Title for RouteMap.html*/
-    .Title2 {
         font-size: 32px;
         font-weight: 700;
         text-align: center;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 125px;
     }
 
 /* Text for the main page*/
