@@ -1,46 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="ITC Group 4">
+
     <link href="https://fonts.cdnfonts.com/css/bernoru" rel="stylesheet">
-    <link href="https://fontlibrary.org//face/glacial-indifference" rel="stylesheet">
-    <title>Sakay Calabarzon</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.cdnfonts.com/css/glacial-indifference-2" rel="stylesheet">
+
+    <title>Route Map - Sakay Calabarzon</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <link rel="stylesheet" href="routemap.css">
 </head>
 
-
-
-  
 <body>
-  <!- This is the Header of our Website, this will be present across all of our pages --> 
-  <header>
-        <img class="logo" src="images/Sakay_Calabarzon-Logo.png" alt="Sakay Calabarzon logo">
-        <hr>
-        <nav class="nav-links">
-            <ul class="nav-lists">
-                <li><a class="nav-li"href="index.html" style="text-decoration: none">Home</a></li>
-                <li><a class="nav-li"href="FAQ.html" style="text-decoration: none">FAQ</a></li>
-                <li><a class="nav-li"href="About.html" style="text-decoration: none">About</a></li>
-                <li><a class="nav-a"href="RouteMap.html" style="text-decoration: none">View Route Map</a></li>
-            </ul>
-        </nav>
-  </header>
-</body>
+    <div id="map"></div>
 
-<div class="MainContent">
-    <article class="content">
-            <h1 class="Title2">Routes and Fares</h1>
-            <p class ="Subtitle"> See the map, compare the vehicles, and check what your ride should cost <br> across region 4A</p>
-    </article>
+    <div class="panel">
 
-    <div class="get-started">
-        <a class="GetStarted" href="RouteMap.html" >Get Started</a>
+        <header class="top-bar">
+            <a href="home.html"><img class="logo-s" src="images/logo-s.png" alt="Sakay Calabarzon Logo"></a>
+            <a class="top-link" href="faq.html">FAQ</a> <!-- palagyan ng faq.html na ginawa nila-->
+            <a class="top-link" href="about.html">About</a> <!-- palagyan ng about.html na ginawa nila-->
+        </header>
+
+        <div class="trip-box">
+            <div class="trip-left">
+                <div class="from-to-row">
+                    <img class="small-icon" src="images/from-to.png" alt="From and to icon">
+                    <div>
+                        <p class="trip-text">From: Batangas City</p>
+                        <p class="trip-text">To: Calamba City, Laguna</p>
+                    </div>
+                </div>
+                <div class="type-row">
+                    <img class="small-icon" src="images/car.png" alt="Car icon">
+                    <p class="trip-text">What's your transport type?</p>
+                </div>
+            </div>
+            <a href="transportguide/transportguide.html"><img class="guide-card" src="images/transport-guide.png" alt="Transport guide logo"></a>
+        </div>
+
+        <div class="result-card">
+            <div class="result-top">
+                <div class="mode-icons">
+                    <div class="mode">
+                        <img class="mode-pic" src="images/tricycle-icon.png" alt="Tricycle">
+                    </div>
+                    <div class="mode">
+                        <img class="mode-pic" src="images/bus-icon.png" alt="Bus">
+                    </div>
+                </div>
+                <div class="price-box">
+                    <p class="price">P 1,000</p>
+                    <p class="walk">1 hour walk</p>
+                </div>
+            </div>
+
+            <div class="bar-track">
+                <div class="bar-fill"></div>
+                <div class="dot dot1"></div>
+                <div class="dot dot2"></div>
+                <div class="bar-end"></div>
+            </div>
+            <p class="total-time">1 hrs 24 mins</p>
+        </div>
+
+        <div class="bottom-note">
+            <p>Those are all the routes! If you think there's an alternative:</p>
+            <a class="new-route-btn" href="#">Submit a New route</a>
+        </div>
+
     </div>
-</div>
 
-
-
-  
+    <!-- leaflet.js muna bago map.js, kasi hahanapin ng map.js yung L -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="map.js"></script>
+</body>
 </html>
