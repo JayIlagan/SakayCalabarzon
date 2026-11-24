@@ -160,40 +160,42 @@
         border: 2px solid #1b2f8f;
 /*Removes the hyperlink design on the text*/
         text-decoration: none;
-    }        
+    }       
 
-      
-      
-      .page-header {
-            text-align: center;
-        }
+/*Design for the FAQ*/
+    details {
+        border-radius: 50px;
+        border:2px solid #1b2f8f;
+        margin-bottom: 15px;
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%
+    }
 
-        .container {
-            background-color: white;
-            padding: 20px;
-            margin: 20px auto;
-            max-width: 800px;
-            border-radius: 15px;
-        }
+    summary{
+        font-family: 'GlacialIndifferenceBold', sans-serif;
+        font-size: 25px;
+/*Adjusts the thickness of font*/
+        font-weight: 700;
+        color:#1b2f8f;
+        background-color: #fffff5;
+    }
 
-        .container p {
-            background-color: #ecf756;
-            padding: 20px;
-            margin: 20px auto;
-            max-width: 800px;
-            border-radius: 15px;
-        }
+    p{
+        font-family: 'GlacialIndifferenceRegular', sans-serif;
+        color: #3a3a3a;
+        margin-bottom: 25px;
+    }
 
-        h1, h2 {
-            color: #285580;
-        }
-
-        details {
-            margin-bottom: 15px;
-        }
-
-        summary {
-            cursor: pointer;
-            font-weight: bold;
-        }
-    
+    article{
+        font-family: 'GlacialIndifferenceRegular', sans-serif;
+        color: #3a3a3a;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+        margin-top: 125px;
+    }
