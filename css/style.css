@@ -59,7 +59,7 @@
       
 /*Main Title */
     .Title {
-        font-size: 32px;
+        font-size: 48px;
         font-weight: 700;
         text-align: center;
         display: block;
@@ -200,4 +200,16 @@
         margin-right: auto;
         margin-bottom: 50px;
         margin-top: 125px;
+    }
+
+    .subsub{
+        font-family: 'GlacialIndifferenceRegular', sans-serif;
+        color: #1b2f8f;
+        font-size: 30px;
+        font-weight: 900;
+        text-align: center;
+        display: block;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 50px;
     }
