@@ -20,7 +20,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 0.25rem 2rem;
+      padding: 0.25rem 1.5rem;
       border-bottom: 3px solid #1b2f8f;
     }
 
@@ -70,8 +70,9 @@
     }
 /*Arranges the lists to be centered inside the header*/
     .nav-lists {
+/* Places items in a horizontal row */
         display: flex;
-/*Aligns the lists to be centered horizontal*/
+/*Aligns the lists to be centered vertically*/
         align-items: center;
 /*list-style-type: none; Removes the • infront of the text*/
         list-style-type: none;
@@ -81,8 +82,11 @@
     }
 /*nav-li, hyperlinks*/
     .nav-li { 
+/*font-family, allows fonts either imported or built in to be used*/
         font-family: 'GlacialIndifferenceRegular', sans-serif;
+/*font-size, allows to manipulate the size of the font*/
         font-size: 16px;
+/*color, allows us to use different colors*/
         color: #3a3a3a;
     }
 /*nav-a, hyperlink that looks like a button*/
