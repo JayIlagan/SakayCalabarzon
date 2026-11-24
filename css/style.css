@@ -160,4 +160,40 @@
         border: 2px solid #1b2f8f;
 /*Removes the hyperlink design on the text*/
         text-decoration: none;
-    }
+    }        
+
+      
+      
+      .page-header {
+            text-align: center;
+        }
+
+        .container {
+            background-color: white;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            border-radius: 15px;
+        }
+
+        .container p {
+            background-color: #ecf756;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            border-radius: 15px;
+        }
+
+        h1, h2 {
+            color: #285580;
+        }
+
+        details {
+            margin-bottom: 15px;
+        }
+
+        summary {
+            cursor: pointer;
+            font-weight: bold;
+        }
+    
