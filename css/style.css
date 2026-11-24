@@ -1,49 +1,63 @@
-
+/*A way to reset the default margins of the html file*/
     * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
     }
 
+/*body is the main container for all visible content on a webpage*/
     body {
         background-color: #fffff5;
         align-items: center;
+/*Aligns everything to be centered horizontally*/
         justify-content: center;
         
     }
 
+/*Main container for the header*/
     header {
+/*Allows the header to be in the viewport even if you scrolled down*/
       position: sticky;
+/*Allows the header to be flushed on the top part of the viewport*/
       top: 0;
+/*controls the vertical stacking order of positioned elements along the Z-axis*/
+/*Similar to the layer priority in Canva*/
       z-index: 100;
       background-color: #fffff5;
       display: flex;
+/* Pushes first and last items to opposite edges with equal spacing between remaining items */
       justify-content: space-between;
       align-items: center;
       padding: 0.25rem 1.5rem;
+/*Adds a line across the whole header*/
       border-bottom: 3px solid #1b2f8f;
     }
 
+/*Text logo on the header*/
     .logo { 
         height: 85px;
         width: auto;
         
     }
-
+      
+/*Logo in the main Page*/
     .logo2x2 {
         height: 200px;
         width: auto;
+/*Forces the element onto its own line and expands it to fill the full container width */
         display: block;
         margin-left: auto;
         margin-right: auto;
         margin-top: 125px;
     }
-
+      
+/*Main container for title and subtitle*/
     .content{
         font-family: 'GlacialIndifferenceBold', sans-serif;
         color: #3a3a3a;
     }
-
+      
+/*Main Title for the main page*/
     .Title {
         font-size: 32px;
         font-weight: 700;
@@ -51,13 +65,17 @@
         margin-top: 15px;
     }
 
+/* Text for the main page*/
     .Subtitle {
         font-family: 'GlacialIndifferenceRegular', sans-serif;
         font-size: 22px;
         text-align: center;
+/*Adds space on top of the text*/  
         margin-top: 10px;
+/* Adds space between the letters*/
         letter-spacing: 0.5px;
     }
+      
 /*Design for the footer text*/
     .footer-text{
 /*Changes the background-color of the footer container*/
@@ -75,6 +93,7 @@
 /* Spans the footer bar cleanly from the left edge to the right edge of the screen */
         width: 100%;
     }
+      
 /*Arranges the lists to be centered inside the header*/
     .nav-lists {
 /* Places items in a horizontal row */
@@ -85,8 +104,8 @@
         list-style-type: none;
 /*gap: puts a gap between each lists by 24px*/
         gap: 24px;
-        
     }
+      
 /*nav-li, hyperlinks*/
     .nav-li { 
 /*font-family, allows fonts either imported or built in to be used*/
@@ -96,6 +115,7 @@
 /*color, allows us to use different colors*/
         color: #3a3a3a;
     }
+      
 /*nav-a, hyperlink that looks like a button*/
     .nav-a {
         font-family: 'GlacialIndifferenceBold', sans-serif;
@@ -108,21 +128,26 @@
         border-radius: 999px;
     }
 
+/*A container surrounding GetStarted*/
     .get-started {
         display: flex;
         justify-content: center;
         margin-top: 40px;
     }
 
+/*Button looking hyperlink that redirects it to "RouteMap.html*/
     .GetStarted {
         font-family: 'GlacialIndifferenceBold', sans-serif;
         font-size: 25px;
+/*Adjusts the thickness of font*/
         font-weight: 700;
         color:#1b2f8f;
         background-color: #fffff5;
         gap: 24px;
         padding: 12.5px;
+/* To get the rounded look of the button*/
         border-radius: 999px;
         border: 2px solid #1b2f8f;
+/*Removes the hyperlink design on the text*/
         text-decoration: none;
     }
