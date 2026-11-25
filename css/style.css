@@ -77,28 +77,35 @@
 /* Adds space between the letters*/
         letter-spacing: 0.5px;
     }
-      
-/*Design for the footer text*/
-    .footer-text{
-/*Changes the background-color of the footer container*/
-        background-color: #1b2f8f;
-/*Changes the font color of the text*/
-        color: #fffff5;
-/*Horizontally centers inline content (text, spans, images) inside this container */
-        text-align: center;
-/*Adds breathing room inside the element, between the content and the border */
-        padding: 10px;
-/*Keeps the footer pinned on the bottom even if you scroll*/
-        position: fixed;
-/*Flush with the bottom edge*/
-        bottom: 0;
-        right: 0;
-        left: 0;
-        z-index: 90;
-        margin: 0;
-/* Spans the footer bar cleanly from the left edge to the right edge of the screen */
-        width: 100%;
-    }
+/*footer design*/
+footer {
+    background: #0d294c;
+    color: white;
+    padding: 45px 10%;
+    text-align: center;
+}
+
+.footer-logo {
+    font-size: 21px;
+    font-weight: 800;
+}
+
+footer p {
+    color: #b5c6d9;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.footer-line {
+    height: 1px;
+    background: rgba(255,255,255,0.15);
+    margin: 25px 0;
+}
+
+footer small {
+    font-size: 11px;
+    color: #9aacc1;
+}
       
 /*Arranges the lists to be centered inside the header*/
     .nav-lists {
