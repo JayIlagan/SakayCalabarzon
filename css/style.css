@@ -29,7 +29,7 @@
       align-items: center;
       padding: 0.25rem 1.5rem;
 /*Adds a line across the whole header*/
-      border-bottom: 3px solid #1b2f8f;
+      border-bottom: 3px solid #123c70;
       flex-wrap: wrap;
     }
 
@@ -77,35 +77,6 @@
 /* Adds space between the letters*/
         letter-spacing: 0.5px;
     }
-/*footer design*/
-footer {
-    background: #0d294c;
-    color: white;
-    padding: 20px 10%;
-    text-align: center;
-}
-
-.footer-logo {
-    font-size: 21px;
-    font-weight: 800;
-}
-
-footer p {
-    color: #b5c6d9;
-    font-size: 13px;
-    margin-top: 10px;
-}
-
-.footer-line {
-    height: 1px;
-    background: rgba(255,255,255,0.15);
-    margin: 25px 0;
-}
-
-footer small {
-    font-size: 11px;
-    color: #9aacc1;
-}
       
 /*Arranges the lists to be centered inside the header*/
     .nav-lists {
@@ -135,7 +106,7 @@ footer small {
         font-size: 16px;
         font-weight: 700;
         color:#fffff5;
-        background-color: #1b2f8f;
+        background-color: #123c70;
         gap: 24px;
         padding: 12.5px;
         border-radius: 999px;
@@ -154,13 +125,13 @@ footer small {
         font-size: 25px;
 /*Adjusts the thickness of font*/
         font-weight: 700;
-        color:#1b2f8f;
+        color:#123c70;
         background-color: #fffff5;
         gap: 24px;
         padding: 12.5px;
 /* To get the rounded look of the button*/
         border-radius: 999px;
-        border: 2px solid #1b2f8f;
+        border: 2px solid #123c70;
 /*Removes the hyperlink design on the text*/
         text-decoration: none;
     }       
@@ -168,7 +139,7 @@ footer small {
 /*Design for the FAQ*/
     details {
         border-radius: 3.5px;
-        border:2px solid #1b2f8f;
+        border:2px solid #123c70;
         margin-bottom: 15px;
         width: 70%;
         margin-left: 15%;
@@ -180,7 +151,7 @@ footer small {
         font-size: 25px;
 /*Adjusts the thickness of font*/
         font-weight: 700;
-        color:#1b2f8f;
+        color:#123c70;
         background-color: #ffffff;
         padding: 20px;
         margin-left: 5%;
@@ -211,7 +182,7 @@ footer small {
 
     .subsub{
         font-family: 'GlacialIndifferenceRegular', sans-serif;
-        color: #1b2f8f;
+        color: #123c70;
         font-size: 30px;
         font-weight: 900;
         text-align: center;
@@ -227,7 +198,7 @@ footer small {
         color: #3a3a3a;
         font-size: 30px;
         border-radius: 3.5px;
-        border:2px solid #1b2f8f;
+        border:2px solid #123c70;
         margin-bottom: 15px;
         width: 70%;
         margin-left: 10%;
@@ -239,7 +210,7 @@ footer small {
     /*Design for the footer text*/
     .footer-text{
 /*Changes the background-color of the footer container*/
-        background-color: #1b2f8f;
+        background-color: #123c70;
 /*Changes the font color of the text*/
         color: #fffff5;
 /*Horizontally centers inline content (text, spans, images) inside this container */

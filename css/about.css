@@ -440,7 +440,7 @@ header {
 
 /* FOOTER */
 /*Design for the footer text*/
-    .footer-text{
+.footer-text{
 /*Changes the background-color of the footer container*/
         background-color: #1b2f8f;
 /*Changes the font color of the text*/
@@ -459,7 +459,7 @@ header {
         margin: 0;
 /* Spans the footer bar cleanly from the left edge to the right edge of the screen */
         width: 100%;
-    }
+}
 
 /* RESPONSIVE DESIGN */
 @media (max-width: 900px) {
