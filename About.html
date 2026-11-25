@@ -10,47 +10,258 @@
    <link rel="stylesheet" href="css/style.css">
 </head>
 
-
-
-  
 <body>
-  <!- This is the Header of our Website, this will be present across all of our pages --> 
-  <header>
-        <img class="logo" src="images/Sakay_Calabarzon-Logo.png" alt="Sakay Calabarzon logo">
-        <hr>
-        <nav class="nav-links">
-            <ul class="nav-lists">
-                <li><a class="nav-li"href="index.html" style="text-decoration: none">Home</a></li>
-                <li><a class="nav-li"href="FAQ.html" style="text-decoration: none">FAQ</a></li>
-                <li><a class="nav-li"href="About.html" style="text-decoration: none">About</a></li>
-                <li><a class="nav-a"href="RouteMap.html" style="text-decoration: none">View Route Map</a></li>
+
+    <!-- NAVIGATION -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <span class="logo-icon">🚌</span>
+                SAKAY <span>CALABARZON</span>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="routes.html">Routes</a></li>
+                <li><a href="about.html" class="active">About</a></li>
             </ul>
         </nav>
-  </header>
-</body>
+    </header>
 
-  <div class="MainContent">
-        <img class="logo2x2" src="images/Sakay_Calabarzon_Logo-2x2.png" alt="Sakay Calabarzon logo 2x2">
-        <article class="content">
-            <h1 class="Title">Built for the daily commute.</h1>
-            <p class ="Subtitle"> Making everyday travel easier, one route at a time. Discover the right ride, <br> estimated fare, and travel time across CALABARZON..</p>
-        </article>
-    <h2 class ="subsub">Discover Our Project!</h2>
-    <p class ="subbox">Sakay CALABARZON helps commuters in Region 4A find the right ride, the likely fare, and a rough travel time, all in one place. Whether you're traveling for school, work, or daily errands, our goal is to make public transportation information easier to understand and access. </p>
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-content">
+            <span class="tagline">ABOUT SAKAY CALABARZON</span>
+            <h1>Built for the <span>daily commute.</span></h1>
 
-    <div class="grid-container>
-      <div class="grid-item"<1></div>
-      <div class="grid-item"<2></div>
-      <div class="grid-item"<3></div>
-      <div class="grid-item"<4></div>
+`            <p>
+                Making everyday travel easier, one route at a time.
+                Discover the right ride, estimated fare, and travel
+                time across CALABARZON.
+            </p>
+
+            <a href="#about-project" class="hero-btn">Discover Our Project ↓</a>
+        </div>
+    </section>
+
+    <!-- INTRODUCTION -->
+    <section class="introduction" id="about-project">
+        <div class="intro-text">
+            <span class="section-label">WHO WE ARE</span>
+            <h2>Your travel guide around <span>Region 4A.</span></h2>
+
+            <p>
+                Sakay CALABARZON helps commuters in Region 4A find
+                the right ride, the likely fare, and a rough travel
+                time, all in one place.
+            </p>
+
+            <p>
+                Whether you're traveling for school, work, or daily
+                errands, our goal is to make public transportation
+                information easier to understand and access.
+            </p>
+        </div>
+
+        <div class="intro-card">
+            <div class="bus-icon">🚌</div>
+            <h3>Travel smarter.</h3>
+            <p>Know your route. Estimate your fare. Plan your journey.</p>
+        </div>
+    </section>
+
+    <!-- WHAT WE COVER -->
+    <section class="coverage">
+        <div class="section-heading">
+            <span class="section-label">OUR COVERAGE</span>
+            <h2>Exploring <span>CALABARZON</span></h2>
+            <p>
+                CALABARZON, also known as Region 4A, is composed
+                of five provinces.
+            </p>
+        </div>
+
+        <div class="province-container">
+
+            <div class="province-card">
+                <div class="province-number">01</div>
+                <h3>Cavite</h3>
+                <p>Province of CALABARZON</p>
+            </div>
+
+            <div class="province-card">
+                <div class="province-number">02</div>
+                <h3>Laguna</h3>
+                <p>Province of CALABARZON</p>
+            </div>
+
+            <div class="province-card">
+                <div class="province-number">03</div>
+                <h3>Batangas</h3>
+                <p>Province of CALABARZON</p>
+            </div>
+
+            <div class="province-card">
+                <div class="province-number">04</div>
+                <h3>Rizal</h3>
+                <p>Province of CALABARZON</p>
+            </div>
+
+            <div class="province-card">
+                <div class="province-number">05</div>
+                <h3>Quezon</h3>
+                <p>Province of CALABARZON</p>
+            </div>
+
+        </div>
+
+        <div class="coverage-note">
+            <span>📍</span>
+            <p>
+                Our guide starts with three busy transportation
+                corridors and will continue to grow.
+            </p>
+        </div>
+    </section>
+
+   <!-- MEET THE TEAM -->
+<section class="team">
+    <div class="section-heading">
+        <span class="section-label">THE PEOPLE BEHIND THE PROJECT</span>
+        <h2>Meet the <span>Team</span></h2>
+        <p>
+            A collaborative project built through research,
+            creativity, and teamwork.
+        </p>
+    </div>
+
+    <div class="team-container">
+
+        <!-- MEMBER 1 -->
+        <div class="team-card">
+            <img src="./Clint.jpg" alt="Map and Data Lead">
+            <span class="role">MAP AND DATA LEAD</span>
+            <h3>Clint Santa Maria</h3>
+            <p>
+                Built the route map and organized the fare
+                and route tables to help commuters navigate
+                transportation options.
+            </p>
+        </div>
+
+        <!-- MEMBER 2 -->
+        <div class="team-card">
+            <img src="./Elijah.jpg" alt="Pages and Links Lead">
+            <span class="role">PAGES AND LINKS LEAD</span>
+            <h3>Elijah Steven Ilagan</h3>
+            <p>
+                Developed the home and routes pages and
+                checked every link to ensure smooth
+                navigation throughout the website.
+            </p>
+        </div>
+
+        <!-- MEMBER 3 -->
+        <div class="team-card">
+            <img src="./Ariane.jpg" alt="Design and Documents Lead">
+            <span class="role">DESIGN AND DOCUMENTS LEAD</span>
+            <h3>Ariane Aguiman</h3>
+            <p>
+                Designed the website's visual appearance,
+                handled images and credits, and prepared
+                the project documentation.
+            </p>
+        </div>
+
+        <!-- MEMBER 4 -->
+        <div class="team-card">
+            <img src="./jieroh.jpg" alt="Jieroh - About Page Developer">
+            <span class="role">ABOUT PAGE DEVELOPER</span>
+            <h3>Jieroh Ivan Bico</h3>
+            <p>
+                Designed and developed the About page,
+                presenting the project's background,
+                team members, and essential information
+                in an organized layout.
+            </p>
+        </div>
 
     </div>
-  </div>
+</section>
+
+    <!-- PROJECT DETAILS -->
+    <section class="project">
+        <div class="project-content">
+            <span class="section-label">PROJECT INFORMATION</span>
+            <h2>About the <span>Project</span></h2>
+
+            <p>
+                Sakay CALABARZON is a final project developed
+                for CC 100 – Introduction to Computing.
+            </p>
+
+            <div class="project-details">
+
+                <div class="detail">
+                    <span class="detail-icon">🎓</span>
+                    <div>
+                        <small>INSTITUTION</small>
+                        <h4>Batangas State University</h4>
+                        <p>Alangilan Campus</p>
+                    </div>
+                </div>
+
+                <div class="detail">
+                    <span class="detail-icon">🏫</span>
+                    <div>
+                        <small>COLLEGE</small>
+                        <h4>College of Informatics and Computing Sciences</h4>
+                    </div>
+                </div>
+
+                <div class="detail">
+                    <span class="detail-icon">📚</span>
+                    <div>
+                        <small>COURSE</small>
+                        <h4>CC 100 – Introduction to Computing</h4>
+                    </div>
+                </div>
+
+                <div class="detail">
+                    <span class="detail-icon">📅</span>
+                    <div>
+                        <small>ACADEMIC YEAR</small>
+                        <h4>2026–2027</h4>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="category-box">
+            <span class="category-icon">🚍</span>
+            <h3>Project Category</h3>
+
+            <div class="category-item">
+                <small>CATEGORY</small>
+                <h4>Transportation and Logistics</h4>
+            </div>
+
+            <div class="category-item">
+                <small>SUBCATEGORY</small>
+                <h4>Public Transportation Guide</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
     <footer>
-        <p class="footer-text">&copy; 2026 Sakay Calabarzon. All rights reserved.</p>
+        <div class="footer-logo">🚌 SAKAY CALABARZON</div>
+        <p>Making every commute a little easier.</p>
+        <div class="footer-line"></div>
+        <small>© 2026 Sakay CALABARZON | CC 100 Final Project</small>
     </footer>
 
-
-
+</body>
   
 </html>
