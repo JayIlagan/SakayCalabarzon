@@ -28,7 +28,7 @@ header {
       align-items: center;
       padding: 0.25rem 1.5rem;
 /*Adds a line across the whole header*/
-      border-bottom: 3px solid #1b2f8f;
+      border-bottom: 3px solid #123c70;
       flex-wrap: wrap;
     }
 
@@ -66,7 +66,7 @@ header {
         font-size: 16px;
         font-weight: 700;
         color:#fffff5;
-        background-color: #1b2f8f;
+        background-color: #123c70;
         gap: 24px;
         padding: 12.5px;
         border-radius: 999px;
