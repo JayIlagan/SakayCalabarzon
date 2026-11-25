@@ -201,6 +201,7 @@ header {
 .coverage {
     background: #fffff5;
     padding: 85px 10%;
+    border-top: 3px solid #123c70;
 }
 
 .section-heading {
