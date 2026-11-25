@@ -114,7 +114,7 @@ header {
 .hero p {
     max-width: 560px;
     line-height: 1.9;
-    color: #d9e4f2;
+    color: #fffff5;
     font-size: 15px;
 }
 
@@ -132,7 +132,7 @@ header {
 }
 
 .hero-btn:hover {
-    background: white;
+    background: #fffff5;
     transform: translateY(-3px);
 }
 
@@ -199,7 +199,7 @@ header {
 
 /* COVERAGE */
 .coverage {
-    background: #edf3fa;
+    background: #fffff5;
     padding: 85px 10%;
 }
 
@@ -351,7 +351,7 @@ header {
 
 /* PROJECT INFORMATION */
 .project {
-    background: #edf3fa;
+    background: #f7f7ea;
     padding: 85px 10%;
     display: flex;
     justify-content: space-between;
@@ -435,7 +435,7 @@ header {
 .category-item h4 {
     font-size: 14px;
     margin-top: 7px;
-    color: #edf3fa;
+    color: #fffff5;
 }
 
 /* FOOTER */
