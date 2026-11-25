@@ -59,46 +59,18 @@ header {
 /*color, allows us to use different colors*/
         color: #3a3a3a;
     }
-      
 
-.navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.logo {
-    font-size: 21px;
-    font-weight: 800;
-    color: #123c70;
-}
-
-.logo span:last-child {
-    color: #f5a623;
-}
-
-.logo-icon {
-    margin-right: 5px;
-}
-
-.nav-links {
-    display: flex;
-    gap: 35px;
-    list-style: none;
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: #53657b;
-    font-size: 14px;
-    font-weight: 500;
-    transition: 0.3s;
-}
-
-.nav-links a:hover,
-.nav-links .active {
-    color: #f0a323;
-}
+/*nav-a, hyperlink that looks like a button*/
+    .nav-a {
+        font-family: 'GlacialIndifferenceBold', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        color:#fffff5;
+        background-color: #1b2f8f;
+        gap: 24px;
+        padding: 12.5px;
+        border-radius: 999px;
+    }
 
 /* HERO */
 .hero {
