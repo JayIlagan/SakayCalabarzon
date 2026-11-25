@@ -14,13 +14,52 @@ body {
 
 /* NAVIGATION */
 header {
-    background: white;
-    padding: 18px 8%;
-    box-shadow: 0 3px 15px rgba(0,0,0,0.05);
-    position: sticky;
-    top: 0;
-    z-index: 100;
-}
+/*Allows the header to be in the viewport even if you scrolled down*/
+      position: sticky;
+/*Allows the header to be flushed on the top part of the viewport*/
+      top: 0;
+/*controls the vertical stacking order of positioned elements along the Z-axis*/
+/*Similar to the layer priority in Canva*/
+      z-index: 100;
+      background-color: #fffff5;
+      display: flex;
+/* Pushes first and last items to opposite edges with equal spacing between remaining items */
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.25rem 1.5rem;
+/*Adds a line across the whole header*/
+      border-bottom: 3px solid #1b2f8f;
+      flex-wrap: wrap;
+    }
+
+/*Text logo on the header*/
+    .logo { 
+        height: 85px;
+        width: auto;
+        
+    }
+
+    .nav-lists {
+/* Places items in a horizontal row */
+        display: flex;
+/*Aligns the lists to be centered vertically*/
+        align-items: center;
+/*list-style-type: none; Removes the • infront of the text*/
+        list-style-type: none;
+/*gap: puts a gap between each lists by 24px*/
+        gap: 24px;
+    }
+      
+/*nav-li, hyperlinks*/
+    .nav-li { 
+/*font-family, allows fonts either imported or built in to be used*/
+        font-family: 'GlacialIndifferenceRegular', sans-serif;
+/*font-size, allows to manipulate the size of the font*/
+        font-size: 16px;
+/*color, allows us to use different colors*/
+        color: #3a3a3a;
+    }
+      
 
 .navbar {
     display: flex;
