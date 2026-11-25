@@ -182,8 +182,8 @@ header {
 }
 
 .bus-icon {
-    font-size: 55px;
-    margin-bottom: 15px;
+    height: 200px;
+    width: auto;
 }
 
 .intro-card h3 {
